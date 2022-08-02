@@ -1,0 +1,50 @@
+body{
+    background-color: blanchedalmond;
+}
+
+.text{
+    width: 420px;
+    height: 590px;
+    border-style: solid;
+    background-color: white;
+    margin-left: 530px;
+    margin-top: 60px;
+}
+
+.title1{
+    color: brown;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.first{
+    width: 220px;
+    height: 230px;
+    background-color: orange;
+    margin-left: 10px;
+    border-radius: 25px 31px 38px 20px;
+}
+
+.first p{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.title2{
+    color: brown;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.second{
+    width: 220px;
+    height: 230px;
+    background-color: #EF39E9;
+    margin-left: 10px;
+    border-radius: 25px 31px 38px 20px;
+}
+
+.second p{
+    padding-top: 20px;
+    padding-left: 20px;
+}

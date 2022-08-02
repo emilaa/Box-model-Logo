@@ -1,0 +1,85 @@
+.olympic-logo{
+    width: 38em;
+    height: 17.5em;
+    font-size: 20px;
+    background-color: white;
+    position: absolute;
+    margin-left: 27em;
+    margin-top: 13em;
+}
+
+.ring{
+    width: 10em;
+    height: 10em;
+    border: 1em solid;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.blue{
+    border-color: #007AC9;
+}
+
+.black{
+    left: 13em;
+}
+
+.red{
+    border-color: #E10E49;
+    left: 26em;
+}
+
+.orange{
+    border-color: #FFA100;
+    top: 5.5em;
+    left: 6.5em;
+}
+
+.green{
+    top: 5.5em;
+    left: 19.5em;
+    border-color: #009B3A;
+}
+
+.rings{
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    overflow: hidden;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5em 0 5em 10em;
+}
+
+.rings::before{
+    content: "";
+    width: 10em;
+    height: 10em;
+    position: absolute;
+    top: -5em;
+    left: -10em;
+    border: 1em solid;
+    border-radius: 50%;
+}
+
+.ring1::before{
+    border-color: #007AC9;
+}
+
+.ring2{
+    left: 13em;
+}
+
+.ring3{
+    left: 13em;
+    transform: rotate(100deg);
+}
+
+.ring4{
+    left: 26em;
+    transform: rotate(100deg);
+}
+
+.ring4:before{
+    border-color: #E10E49;
+}

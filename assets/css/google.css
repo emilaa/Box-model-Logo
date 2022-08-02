@@ -1,0 +1,28 @@
+.first{
+    background-color: #18A6AF;
+    width: 500px;
+    height: 250px;
+    margin-left: 690px;
+    margin-top: 300px;
+    border-radius: 60px 0px 60px 0px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    padding: 60px;
+}
+
+.second{
+    background-color: #764C2F;
+    width: 530px;
+    height: 250px;
+    margin-left: 670px;
+    margin-top: -250px;
+    position: absolute;
+    left: 13px;
+    top: 550px;
+    z-index: -1;
+    border-radius: 60px 0px 60px 0px;
+}
